@@ -27,7 +27,7 @@
 ### 3.0. namespace
 #### 3.0.1. Spatio
 ``` cpp
-	namespace Spatio
+namespace Spatio
 ```
 ---
 ### 3.1. enum
