@@ -8,6 +8,16 @@
 ## 2. Rule of Spatio
 * 2 Players are needed for this game.
 ---
+#### 2.0. Tetromino
+Tetromino | pic
+:------:|:-----:
+I|![I](https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tetromino_I.svg/71px-Tetromino_I.svg.png)
+O|![O](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tetromino_O.svg/39px-Tetromino_O.svg.png)
+T|![T](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Tetromino_T.svg/54px-Tetromino_T.svg.png)
+J|![J](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Tetromino_J.svg/54px-Tetromino_J.svg.png)
+L|![L](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Tetromino_L.svg/56px-Tetromino_L.svg.png)
+S|![S](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Tetromino_S.svg/56px-Tetromino_S.svg.png)
+Z|![Z](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Tetromino_Z.svg/53px-Tetromino_Z.svg.png)
 #### 2.1. Board
 1. **[Board]** is structured with n*m grid.
 ---
