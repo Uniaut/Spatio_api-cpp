@@ -20,6 +20,7 @@ S|![S](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Tetromino_S.svg
 Z|![Z](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Tetromino_Z.svg/53px-Tetromino_Z.svg.png)
 #### 2.1. Board
 1. **[Board]** is structured with n*m grid.
+![turn1](https://i.ibb.co/8PLgxCw/spatio1.png)
 ---
 #### 2.2. Action
 
@@ -29,8 +30,11 @@ Z|![Z](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Tetromino_Z.svg
 ---
 #### 2.3. Order
 1.  A going-1st player takes an **[Action]**. If it's not possible, 2nd player wins.
+![turn1](https://i.ibb.co/BVgHJf5/spatio1.png)
 2.  A going-2nd player takes an **[Action]**. If it's not possible, 1st player wins.
+![turn1](https://i.ibb.co/f0QgQwG/spatio1.png)
 3.  Go to **1**.
+![turn1](https://i.ibb.co/bdsSBx1/spatio1.png)
 ---
 ## 3. Spatio_api reference
 
