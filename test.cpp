@@ -4,9 +4,49 @@
 #include <tuple>
 #include <Windows.h>
 #include <random>
+#include <string>
+#include <vector>
 
 #include "Spatio.h"
-#include "command.h"
+
+std::tuple<char, int, int, int> getCommand()
+{
+	std::cout << ">>";
+
+	std::string command;
+
+	do
+		std::getline(std::cin, command);
+	while (command.length() == 0);
+
+	std::vector<std::string> input_vec;
+
+	int range1 = 0, range2 = 0;
+	for (auto& ch : command)
+	{
+		range2++;
+		if (ch == ' ')
+		{
+			input_vec.push_back(
+				command.substr(range1, range2 - range1 - 1)
+			);
+			range1 = range2;
+		}
+	}
+	input_vec.push_back(command.substr(range1, range2));
+	while(input_vec.size() < 4)
+		input_vec.push_back(std::string("-1"));
+
+	char ch0;
+	int i1, i2, i3;
+
+	ch0 = input_vec[0].at(0);
+	i1 = atoi(input_vec[1].c_str());
+	i2 = atoi(input_vec[2].c_str());
+	i3 = atoi(input_vec[3].c_str());
+
+	return std::make_tuple(ch0, i1, i2, i3);
+}
 
 void setFontColor(int color) {
 	CONSOLE_SCREEN_BUFFER_INFO info;
