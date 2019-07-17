@@ -108,7 +108,9 @@ public:
 	bool Action(int row, int col, int n);
 	bool IsOver();
 	SpatioBoard* GetBoard() const;
-	std::tuple<int, int, int, bool, int> GetState();
+	int GetState();
+	int GetTurn() const;
+	std::tuple<int , int> GetSize(); // row & column
 ```
 #### 3.3. example:
 ``` cpp
